@@ -22,6 +22,7 @@ public class User {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@JsonProperty
 	private long id;
+	//questo user è fatto da massi per prova
 	
 	@Column(nullable = false, unique = true)
 	@JsonProperty
